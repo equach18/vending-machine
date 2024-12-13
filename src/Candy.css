@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.candy {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("candy.png");
+  background-repeat: repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.candy h1 {
+  font-size: 80px;
+}
+
+.candy a {
+  font-size: 20px;
+}

@@ -1,0 +1,59 @@
+.vending-machine {
+  background-image: url("vending-machine.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 200;
+  color: white;
+}
+.vending-machine h1 {
+  width: 18%;
+}
+
+.vending-machine-items {
+  padding: 40px;
+  border-radius: 10px;
+}
+
+a {
+  font-size: 30px;
+  font-weight: 400;
+  text-decoration: none;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a:hover {
+  color: white;
+  transform: scale(1.1);
+}
+
+.vending-machine-items,
+a {
+  display: block;
+}
+
+button {
+  background-color: #0073e6;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: 400;
+  transition: background-color 0.3s, transform 0.3s;
+  box-shadow: 0 0 1px #fff, 0 0 4px #fff, 0 0 8px #0073e6, 0 0 12px #0073e6,
+    0 0 16px #0073e6;
+  margin: 10px;
+}

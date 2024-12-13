@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.soda {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("soda.jpg");
+  background-size: 60%;
+  background-color: #6bfbfe;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.soda-container {
+  background-color: rgba(0, 0, 1, 0.494);
+  margin: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+  padding: 20px 70px;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.soda h1 {
+  font-size: 80px;
+}
+
+.soda a {
+  font-size: 20px;
+}
